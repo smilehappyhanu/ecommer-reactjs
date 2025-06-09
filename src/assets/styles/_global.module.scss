@@ -1,0 +1,6 @@
+// Viết những class, style có thể chung có thể được dùng xuyên suốt trong toàn bộ hệ thống, thường dùng với font family
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body {
+    font-family: "Roboto Mono", monospace;
+  }
