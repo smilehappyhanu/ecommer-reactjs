@@ -1,3 +1,4 @@
+import Button from '@components/Button/Button';
 import styles from './styles.module.scss';
 
 function Banner() {
@@ -8,7 +9,7 @@ function Banner() {
                 <h1 className={title}>XStore Marseille04 Demo</h1>
                 <div className={des}>Make yours celebrations even more special this years with beautiful.</div>
 
-                <button>Go to shop</button>
+                <Button content={'Go to shop'} />
             </div>
         </div>
      );
